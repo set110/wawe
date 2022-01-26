@@ -17,12 +17,12 @@
     <title>WAWE</title>
 </head>
 
-<body>
+<body id="body">
     <header class="header">
         <div class="header__inner">
             <div class="container">
                 <div class="header__top">
-                    <a class="logo" href="#">
+                    <a class="logo" href="#body">
                         <svg width="60" height="63" viewBox="0 0 60 63" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M11.412 29.512H16.02L18.936 37.972L21.888 29.512H26.46L22.068 41.14L25.308 49.276L32.544 29.44H37.944L27.72 55H23.436L18.936 44.272L14.472 55H10.188L0 29.44H5.328L12.6 49.276L15.768 41.14L11.412 29.512Z"
@@ -43,32 +43,32 @@
                         </button>
                         <ul class="menu__list">
                             <li class="menu__list-item">
-                                <a class="menu__list-link" href="#">
+                                <a class="menu__list-link" href="#info">
                                     О нас
                                 </a>
                             </li>
                             <li class="menu__list-item">
-                                <a class="menu__list-link" href="#">
+                                <a class="menu__list-link" href="#service">
                                     Услуги
                                 </a>
                             </li>
                             <li class="menu__list-item">
-                                <a class="menu__list-link" href="#">
+                                <a class="menu__list-link" href="#price">
                                     Стоимость
                                 </a>
                             </li>
                             <li class="menu__list-item">
-                                <a class="menu__list-link" href="#">
+                                <a class="menu__list-link" href="#blog">
                                     Блог
                                 </a>
                             </li>
                             <li class="menu__list-item">
-                                <a class="menu__list-link" href="#">
+                                <a class="menu__list-link" href="#team">
                                     Команда
                                 </a>
                             </li>
                             <li class="menu__list-item">
-                                <a class="menu__list-link" href="#">
+                                <a class="menu__list-link" href="#contact">
                                     Контакты
                                 </a>
                             </li>
@@ -85,7 +85,7 @@
             </div>
         </div>
     </header>
-    <section class="info">
+    <section class="info" id="info">
         <div class="container">
             <div class="title__inner">
                 <h2 class="title title__info"> О ШКОЛЕ, О СЕРФИНГЕ, О КАНАРАХ </h2>
@@ -127,7 +127,7 @@
 
         </div>
     </section>
-    <section class="service">
+    <section class="service" id="service">
         <div class="container">
             <div class="title__inner">
                 <h2 class="title title__service"> В ШКОЛЕ ВЫ ПОЛУЧИТЕ </h2>
@@ -289,7 +289,7 @@
         </div>
 
     </section>
-    <section class="slider">
+    <section class="slider" id="blog">
 
         <div class="container">
             <div class="title__inner">
@@ -365,7 +365,7 @@
             </div>
         </div>
     </section>
-       <section class="team">
+       <section class="team" id="team">
         <div class="container">
             <div class="title__inner">
                 <h2 class="title team__title">НАША КОМАНДА</h2>
@@ -391,7 +391,7 @@
 
         </div>
     </section>
-    <section class="price">
+    <section class="price" id="price">
         <div class="container">
 
             <div class="title__inner">
@@ -455,7 +455,7 @@
     <div class="map">
         <img src="images/map.jpg" alt="map" class="map__img">
     </div>
-     <footer class="footer">
+     <footer class="footer" id="contact">
         <div class="container">
             <div class="title__inner">
                 <h2 class="title footer__title">ОСТАВИТЬ ЗАЯВКУ</h2>
@@ -503,7 +503,7 @@
             </div>
         </div>
         <div class="footer__bottom">
-            <img class="footer__bottom-logo" src="images/logo-w.svg" alt="logo">
+            <a href="#body"><img class="footer__bottom-logo" src="images/logo-w.svg" alt="logo"></a>
         </div>
     </footer> 
  
